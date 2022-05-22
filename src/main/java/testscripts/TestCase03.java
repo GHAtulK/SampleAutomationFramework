@@ -17,6 +17,7 @@ public class TestCase03 extends BaseClass {
 		s.searchButton();
 		
 		SearchResultPage srp = new SearchResultPage(driver);
+		
 		srp.corejavaforseleniumSearchResult();
 		
 		CoreJavaForSeleniumPage cjs = new CoreJavaForSeleniumPage(driver);
